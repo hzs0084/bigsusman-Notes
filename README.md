@@ -10,27 +10,28 @@ When I was also preparing for an interview, there was no specific structure for 
 I'm also going to organize the interviews and those experiences by company because each FAANG or MAANG company has their own unique way of interviewing.
 
  
-## By [nolang](https://twitter.com/__nolang)
+## By bigsusman
 
 ### Contents
 - [README](README.md)
-- [Known Helpful Resources from Reddit](#helpful-resources)
-- [Interviewing Tips](#interviewing-tips)
-- [Networking](#networking)
+- [Known Helpful Resources from Reddit and more](#helpful-resources)
+- [OSINT](#osint)
+- [Forensics](#forensics)
 - [Web Application](#web-application)
-- [Infrastructure (Prod / Cloud) Virtualisation](#infrastructure-prod--cloud-virtualisation)
-- [OS Implementation and Systems](#os-implementation-and-systems)
-- [Mitigations](#mitigations)
-- [Cryptography, Authentication, Identity](#cryptography-authentication-identity)
-- [Malware & Reversing](#malware--reversing)
+- [Cloud Security](#infrastructure-prod--cloud-virtualisation)
+- [Reverse Engineering](#os-implementation-and-systems)
+- [Binary Exploitation](#mitigations)
+- [Cybersecurity Pathways/Roadmaps](#cryptography-authentication-identity)
+- [Books to Read](#malware--reversing)
 - [Exploits](#exploits)
-- [Attack Structure](#attack-structure)
+- [Threat Detection](#threat-detection)
 - [Threat Modeling](#threat-modeling)
-- [Detection](#detection)
-- [Digital Forensics](#digital-forensics)
-- [Incident Management](#incident-management)
+- [My Personal Interview Experiences](#detection)
+- [Platforms to Upskill](#digital-forensics)
+- [Find CTFs](#incident-management)
 - [Coding & Algorithms](#coding--algorithms)
 - [Security Themed Coding Challenges](#security-themed-coding-challenges)
+- [Amazing Research-Papers](#research-papers)
 
 # Background
 
@@ -40,18 +41,20 @@ Where did these notes come from? See the [README](README.md).
 
 - [Interview Study Notes by Nolang](https://github.com/gracenolan/Notes) on GitHub. I have borrowed the idea of notes, while this repo by nolang talks about what helped them prepare for interview. I want to take this a step further. I WOULD HIGHLY SUGGEST going through this as there might be some overlap for concepts but that repo goes into more detail than mine will.
 
-- []
+- [Security Engineer Interviews at MAANG](https://www.teamblind.com/post/I-did-85-security-engineer-on-sites-with-top-tech-companies%E2%80%A6a-prep-guide-LyANPVE6) This is another good read to get an insight as they did multiple on-site interviews at big tech companies.
 
-- **Track concepts - "To learn", "Revising", "Done"**
+
+
+<!-- - **Track concepts - "To learn", "Revising", "Done"**
 	- Any terms I couldn't easily explain went on to post-its. 
 	- One term per post-it. 
 	- "To learn", "Revising", "Done" was written on my whiteboard and I moved my post-its between these categories, I attended to this every few days.
 	- I looked up terms everyday, and I practiced recalling terms and explaining them to myself every time I remembered I had these interviews coming up (frequently).
 	- I focused on the most difficult topics first before moving onto easier topics.
 	- I carried around a notebook and wrote down terms and explanations. 
-	- Using paper reduces distractions.
+	- Using paper reduces distractions. -->
 
-- **How to review concepts**
+<!-- - **How to review concepts**
 	- Use spaced-repetition.
 	- Don't immediately look up the answer, EVEN IF you have never seen the term before. Ask yourself what the term means. Guess the answer. Then look it up.
 	- Review terms *all the time*. You can review items in your head at any time. If I was struggling to fall asleep, I'd go through terms in my head and explained them to myself. 100% success rate of falling asleep in less than 10 minutes, works every time. 
@@ -71,10 +74,29 @@ Where did these notes come from? See the [README](README.md).
 - **Mental health**
 	- Take care of your basic needs first - sleep, eat well, drink water, gentle exercise. You know yourself, so do what's best for you.
 	- You are more than your economic output, remember to separate your self worth from your paycheque. 
-	- See interviews for what they are - they are *not* a measure of you being "good enough".
+	- See interviews for what they are - they are *not* a measure of you being "good enough". -->
 
 
-# Interviewing Tips 
+# OSINT
+
+[WhatsMyName Web](https://whatsmyname.app/) Incredible way to find someone if you know their username or have their username from a platform.
+
+[OSINT Framework](https://osintframework.com/) Helps you visualize how to use OSINT to track/build a profile on someone
+
+[Sourcing Games](https://sourcing.games/) This site helps you pratice and learn with challenges that can help you build OSINT skills.
+
+[Data Broker Sites](https://www.aura.com/learn/how-to-remove-yourself-from-data-broker-sites) This article I think is a MUST read to understand why having your personal information out in the open is bad.
+
+[OWASP Favicon DB](https://wiki.owasp.org/index.php/OWASP_favicon_database)
+
+[Certificate Search](https://crt.sh/) Ever curious to learn more about a certificate about a website? Fear not, as this site will helps you look at the nitty gritty details about a certificate, one of the ways I use it is take the hash of that certificate and click search
+
+[Reverse Image Search](https://tineye.com/) This was incredibly helpful before google added the reverse image search but it can still come in handy.
+
+[Name Checker](https://www.namecheckr.com/) Trying to learn where a username is available and being used, this can serve as a unique way to peek into where a person may be using the same username
+
+
+<!-- 
 
 - **Interview questions**
 	- Interview questions are intentionally vague. This is to encourage questions.
@@ -145,10 +167,10 @@ Where did these notes come from? See the [README](README.md).
 	- Practice speaking aloud everything you know about a topic, even details you think might be irrelevant. 
 	- Doooo theeeeemmm yes they can be annoying to organise but it is *worth it*.
 
-### Interviewers are potential friends and they want to help you get the job, they are on your side. Let them help you, ask them questions, recite everything you know on a topic and *say your thought process out loud*.
+### Interviewers are potential friends and they want to help you get the job, they are on your side. Let them help you, ask them questions, recite everything you know on a topic and *say your thought process out loud*. -->
 
 
-# Networking 
+# Forensics 
 
 - OSI Model
 	- Application; layer 7 (and basically layers 5 & 6) (includes API, HTTP, etc).
@@ -560,9 +582,9 @@ Where did these notes come from? See the [README](README.md).
 	- Hak5 tools.
 
 
-# Attack Structure
+# Threat Detection
 
-Practice describing security concepts in the context of an attack. These categories are a rough guide on attack structure for a targeted attack. Non-targeted attacks tend to be a bit more "all-in-one".
+[Awesome Threat Detection](https://github.com/0x4D31/awesome-threat-detection) I found this repository that goes into the deep end of threat detection. 
 
 - Reconnaissance
 	- OSINT, Google dorking, Shodan.
