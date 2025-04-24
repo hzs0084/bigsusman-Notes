@@ -9,6 +9,10 @@ When I was also preparing for an interview, there was no specific structure for 
 
 I'm also going to organize the interviews and those experiences by company because each FAANG or MAANG company has their own unique way of interviewing.
 
+Security Engineers have a no structure for interviews. While the officialy title could be a Security Engineer, you need to study and prepare for multiple aspects during the interview, when compared to SWE interviews you can grind leetcode, study system design and land the job but for us it's a different story. 
+
+I am not saying that SWE interviews are easy but there are clear benchmarks for Software Devs than for security engineers and there are many aspects that a security engineer needs to know and prepare for during an interview.
+
  
 ## By bigsusman
 
