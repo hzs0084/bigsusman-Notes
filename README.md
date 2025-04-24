@@ -31,11 +31,25 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 - [Threat Detection](#threat-detection)
 - [Threat Modeling](#threat-modeling)
 - [My Personal Interview Experiences](#detection)
-- [Platforms to Upskill](#digital-forensics)
+- [Platforms to Upskill](#learning-platforms)
 - [Find CTFs](#incident-management)
 - [Coding & Algorithms](#coding--algorithms)
 - [Security Themed Coding Challenges](#security-themed-coding-challenges)
 - [Amazing Research-Papers](#research-papers)
+- [Bug Bounty]
+- [Cryptography]
+- [List of Cheatsheets]
+- [Online tools for CTF](#ctf-tools)
+
+# CTF Tools
+
+Password Cracking Tools
+StegOnline tools
+Hash Analyzer
+D Code
+Black Hills Info Sec
+Darknet Diaries as a Podcast
+
 
 # Background
 
@@ -98,6 +112,12 @@ Where did these notes come from? See the [README](README.md).
 [Reverse Image Search](https://tineye.com/) This was incredibly helpful before google added the reverse image search but it can still come in handy.
 
 [Name Checker](https://www.namecheckr.com/) Trying to learn where a username is available and being used, this can serve as a unique way to peek into where a person may be using the same username
+
+[Shodan](https://www.shodan.io/) Imagine if you could go to a website and learn about it's IP, ports, and services that are open. Now what if you can also see the vulns that exist on that website. Yeah, that's shodan. There's also an extension available for it.
+
+[Censys Search Engine](https://search.censys.io/) Just like shodan but better
+
+[WappAlyzer](https://www.wappalyzer.com/) An extension that helps you learn what frameworks, and how the site is built. The extension comes in very handy.
 
 
 <!-- 
@@ -735,47 +755,19 @@ Where did these notes come from? See the [README](README.md).
 - A curated list of [awesome threat detection](https://github.com/0x4D31/awesome-threat-detection) resources
 
 
-# Digital Forensics
+# Learning Platforms
 
- - Evidence volatility (network vs memory vs disk)
+ - HackTheBox
 
- - Network forensics
-	- DNS logs / passive DNS
-	- Netflow
-	- Sampling rate
+ - TryHackMe
 
- - Disk forensics
-	- Disk imaging
-	- Filesystems (NTFS / ext2/3/4 / AFPS)
-	- Logs (Windows event logs, Unix system logs, application logs)
-	- Data recovery (carving)
-	- Tools
-	- plaso / log2timeline
-	- FTK imager
-	- encase
+ - HackerOne
 
- - Memory forensics
-	- Memory acquisition (footprint, smear, hiberfiles)
-	- Virtual vs physical memory
-	- Life of an executable
-	- Memory structures
-	- Kernel space vs user space
-	- Tools
-	- Volatility
-	- Google Rapid Response (GRR) / Rekall
-	- WinDbg
+ - PicoCTF
 
-  - Mobile forensics
-	- Jailbreaking devices, implications
-	- Differences between mobile and computer forensics
-	- Android vs. iPhone
+ - OverTheWire
 
-  - Anti forensics
-	- How does malware try to hide?
-	- Timestomping
-
-  - Chain of custody
-  	- Handover notes 
+ - 
 
 
 # Incident Management
