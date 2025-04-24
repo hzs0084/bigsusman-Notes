@@ -1,5 +1,5 @@
-OSI Layers and Attacks
-    Application Layer: HTTP, FTP, SMTP
+#OSI Layers and Attacks
+    ###Application Layer: HTTP, FTP, SMTP
         - SQL Injection
         - Cross-Site Scripting
         - DDoS Attacks
@@ -26,7 +26,7 @@ OSI Layers and Attacks
         - Physical tampering
         - Electromagnetic interference
 
-If you would like to take a peek at a pretty graphic to visualize it. Click on this link: https://www.linkedin.com/feed/update/urn:li:activity:7288631655743770625/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7288631655743770625%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29
+If you would like to take a peek at a pretty graphic to visualize it. Click on this [link]: (https://www.linkedin.com/feed/update/urn:li:activity:7288631655743770625/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7288631655743770625%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29)
 
 
 
