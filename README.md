@@ -61,6 +61,8 @@ Where did these notes come from? See the [README](README.md).
 
 - [Security Engineer Interviews at MAANG](https://www.teamblind.com/post/I-did-85-security-engineer-on-sites-with-top-tech-companies%E2%80%A6a-prep-guide-LyANPVE6) This is another good read to get an insight as they did multiple on-site interviews at big tech companies.
 
+- [RegEx](https://regexone.com/) Learn RegEx in a fun way, this comes very handy when you are working on bash, powershell, or Python Scripts
+
 
 
 <!-- - **Track concepts - "To learn", "Revising", "Done"**
