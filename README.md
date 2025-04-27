@@ -25,8 +25,8 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 - [Cloud Security](#infrastructure-prod--cloud-virtualisation)
 - [Reverse Engineering](#os-implementation-and-systems)
 - [Binary Exploitation](#mitigations)
-- [Cybersecurity Pathways/Roadmaps](#cryptography-authentication-identity)
-- [Books to Read](#malware--reversing)
+- [Cybersecurity Pathways/Roadmaps](#career-pathways-or-roadmaps)
+- [Books to Read](#books-to-read)
 - [Exploits](#exploits)
 - [Threat Detection](#threat-detection)
 - [Threat Modeling](#threat-modeling)
@@ -37,18 +37,61 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 - [Security Themed Coding Challenges](#security-themed-coding-challenges)
 - [Amazing Research-Papers](#research-papers)
 - [Bug Bounty]
-- [Cryptography]
+- [Cryptography](#cryptography)
 - [List of Cheatsheets]
 - [Online tools for CTF](#ctf-tools)
 
 # CTF Tools
 
 Password Cracking Tools
+    - [Hashes.com](https://hashes.com/en/decrypt/hash)
+    - [Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)
+    - [Hash Analyzer by Hashes.com](https://hashes.com/en/tools/hash_identifier)
+    - [NTLM Encrypt & Decrypt](https://md5decrypt.net/en/Ntlm/)
+    - [Crackstation](https://crackstation.net/)
+    - [Hash Identifier](https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master) Your own cli tool to help you identify hashes
+
 StegOnline tools
 Hash Analyzer
 D Code
 Black Hills Info Sec
 Darknet Diaries as a Podcast
+Shared Secrets another podcast
+[Password Wordlists](https://weakpass.com/) Weakpass.com is a collection of password lists for various purposes from penetration testing to improving password security.
+[SecLists](https://github.com/danielmiessler/SecLists) More Password Wordlists
+[Base64 Encoding/Decoding](https://appdevtools.com/base64-encoder-decoder)
+
+- [WPScan](https://wpscan.com/) Need to scan a WordPress Site for Vulns, fear not for WPScan targets common vulns present in WP sites.
+
+- [LinPeas](https://github.com/rebootuser/LinEnum) Enumerate a Linux Box for vulnerabilties and then you can either harden them or exploit them
+
+- [WinPeas](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS) Enumerate a Windows Box for vulnerabilties and then you can either harden them or exploit them
+
+- [Payloads of All Things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md) Check out the other lists as well, there's so much useful content here
+
+- [SysMon](https://github.com/SwiftOnSecurity/sysmon-config) This is a Microsoft Sysinternals Sysmon configuration file template with default high-quality event tracing.
+The file should function as a great starting point for system change monitoring in a self-contained and accessible package. This configuration and results should give you a good idea of what's possible for Sysmon. Note that this does not track things like authentication and other Windows events that are also vital for incident investigation.
+
+- [GTFOBins](https://gtfobins.github.io/) GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.
+The project collects legitimate functions of Unix binaries that can be abused to get the f**k break out restricted shells, escalate or maintain elevated privileges, transfer files, spawn bind and reverse shells, and facilitate the other post-exploitation tasks.
+
+- [DenCode] (https://dencode.com/en/) Tons of encoding and decoding tools
+
+- [JWT Decode](https://jwt.io/) Paste a JWT below that you'd like to decode, validate, and verify.
+
+- [JS Obfuscator](https://codebeautify.org/javascript-obfuscator)
+
+- [JS Deobfuscator](https://obf-io.deobfuscate.io/)
+
+- [HTTP Security Headers](https://securityheaders.com/) Scans for missing security headers by Snyk
+
+- [MITRE ATT&CK](https://attack.mitre.org/) 
+
+- [Quip Quip](https://quipqiup.com/) Runs frquency analysis on ciphers and quipqiup is a fast and automated cryptogram solver by Edwin Olson.
+
+
+
+
 
 
 # Background
@@ -62,6 +105,13 @@ Where did these notes come from? See the [README](README.md).
 - [Security Engineer Interviews at MAANG](https://www.teamblind.com/post/I-did-85-security-engineer-on-sites-with-top-tech-companies%E2%80%A6a-prep-guide-LyANPVE6) This is another good read to get an insight as they did multiple on-site interviews at big tech companies.
 
 - [RegEx](https://regexone.com/) Learn RegEx in a fun way, this comes very handy when you are working on bash, powershell, or Python Scripts
+
+- [Piping](https://www.linuxjournal.com/article/2156) Understand how piping actually works in terminal
+
+- [ICS/OT Youtube Channel](https://www.youtube.com/@utilsec) There are some really cool videos on ICS if anyone is interested
+
+- [DNS Dumpster](https://dnsdumpster.com/) DNSDumpster.com is a FREE domain research tool that can discover hosts related to a domain. Finding visible hosts from the attackers perspective is an important part of the security assessment process.
+
 
 
 
@@ -120,6 +170,8 @@ Where did these notes come from? See the [README](README.md).
 [Censys Search Engine](https://search.censys.io/) Just like shodan but better
 
 [WappAlyzer](https://www.wappalyzer.com/) An extension that helps you learn what frameworks, and how the site is built. The extension comes in very handy.
+
+[AbuseIPDB](https://www.abuseipdb.com/) AbuseIPDB is a project dedicated to helping combat the spread of hackers, spammers, and abusive activity on the internet. You can report an IP address associated with malicious activity, or check to see if an IP address has been reported
 
 
 <!-- 
@@ -198,132 +250,14 @@ Where did these notes come from? See the [README](README.md).
 
 # Forensics 
 
-- OSI Model
-	- Application; layer 7 (and basically layers 5 & 6) (includes API, HTTP, etc).
-	- Transport; layer 4 (TCP/UDP).
-	- Network; layer 3 (Routing).
-	- Datalink; layer 2 (Error checking and frame synchronisation).
-	- Physical; layer 1 (Bits over fibre).	
-- Firewalls
-	- Rules to prevent incoming and outgoing connections.	
-- NAT 
-	- Useful to understand IPv4 vs IPv6.
-- DNS
-	- (53)
-	- Requests to DNS are usually UDP, unless the server gives a redirect notice asking for a TCP connection. Look up in cache happens first. DNS exfiltration. Using raw IP addresses means no DNS logs, but there are HTTP logs. DNS sinkholes.
-	- In a reverse DNS lookup, PTR might contain- 2.152.80.208.in-addr.arpa, which will map to  208.80.152.2. DNS lookups start at the end of the string and work backwards, which is why the IP address is backwards in PTR.
-- DNS exfiltration 
-	- Sending data as subdomains. 
-	- 26856485f6476a567567c6576e678.badguy.com
-	- Doesn’t show up in http logs. 
-- DNS configs
-	- Start of Authority (SOA).
-	- IP addresses (A and AAAA).
-	- SMTP mail exchangers (MX).
-	- Name servers (NS).
-	- Pointers for reverse DNS lookups (PTR).
-	- Domain name aliases (CNAME).
-- ARP
-	- Pair MAC address with IP Address for IP connections. 
-- DHCP
-	- UDP (67 - Server, 68 - Client)
-	- Dynamic address allocation (allocated by router).
-	- `DHCPDISCOVER` -> `DHCPOFFER` -> `DHCPREQUEST` -> `DHCPACK`
-- Multiplex 
-	- Timeshare, statistical share, just useful to know it exists.
-- Traceroute 
-	- Usually uses UDP, but might also use ICMP Echo Request or TCP SYN. TTL, or hop-limit.
-	- Initial hop-limit is 128 for windows and 64 for *nix. Destination returns ICMP Echo Reply. 
-- Nmap 
-	- Network scanning tool.
-- Intercepts (PitM - Person in the middle)
-	- Understand PKI (public key infrastructure in relation to this).
-- VPN 
-	- Hide traffic from ISP but expose traffic to VPN provider.
-- Tor 
-	- Traffic is obvious on a network. 
-	- How do organised crime investigators find people on tor networks. 
-- Proxy  
-	- Why 7 proxies won’t help you. 
-- BGP
-	- Border Gateway Protocol.
-	- Holds the internet together.
-- Network traffic tools
-	- Wireshark
-	- Tcpdump
-	- Burp suite
-- HTTP/S 
-	- (80, 443)
-- SSL/TLS
-	- (443) 
-	- Super important to learn this, includes learning about handshakes, encryption, signing, certificate authorities, trust systems. A good [primer](https://english.ncsc.nl/publications/publications/2021/january/19/it-security-guidelines-for-transport-layer-security-2.1) on all these concepts and algorithms is made available by the Dutch cybersecurity center.
-	- POODLE, BEAST, CRIME, BREACH, HEARTBLEED.
-- TCP/UDP
-	- Web traffic, chat, voip, traceroute.
-	- TCP will throttle back if packets are lost but UDP doesn't. 
-	- Streaming can slow network TCP connections sharing the same network.
-- ICMP 
-	- Ping and traceroute.
-- Mail
-	- SMTP (25, 587, 465)
-	- IMAP (143, 993)
-	- POP3 (110, 995)
-- SSH 
-	- (22)
-	- Handshake uses asymmetric encryption to exchange symmetric key.
-- Telnet
-	- (23, 992)
-	- Allows remote communication with hosts.
-- ARP  
-	- Who is 0.0.0.0? Tell 0.0.0.1.
-	- Linking IP address to MAC, Looks at cache first.
-- DHCP 
-	- (67, 68) (546, 547)
-	- Dynamic (leases IP address, not persistent).
-	- Automatic (leases IP address and remembers MAC and IP pairing in a table).
-	- Manual (static IP set by administrator).
-- IRC 
-	- Understand use by hackers (botnets).
-- FTP/SFTP 
-	- (21, 22)
-- RPC 
-	- Predefined set of tasks that remote clients can execute.
-	- Used inside orgs. 
-- Service ports
-	- 0 - 1023: Reserved for common services - sudo required. 
-	- 1024 - 49151: Registered ports used for IANA-registered services. 
-	- 49152 - 65535: Dynamic ports that can be used for anything. 
-- HTTP Header
-	- | Verb | Path | HTTP version |
-	- Domain
-	- Accept
-	- Accept-language
-	- Accept-charset
-	- Accept-encoding(compression type)
-	- Connection- close or keep-alive
-	- Referrer
-	- Return address
-	- Expected Size?
-- HTTP Response Header
-	- HTTP version
-	- Status Codes: 
-		- 1xx: Informational Response
-		- 2xx: Successful
-		- 3xx: Redirection
-		- 4xx: Client Error
-		- 5xx: Server Error
-	- Type of data in response 
-	- Type of encoding
-	- Language 
-	- Charset
-- UDP Header
-	- Source port
-	- Destination port
-	- Length
-	- Checksum
-- Broadcast domains and collision domains. 
-- Root stores
-- CAM table overflow
+- [StegOnline](https://georgeom.net/StegOnline/upload) Runs a couple of CTF checklist from different images
+- [AperiSolve] (https://www.aperisolve.com/) Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses zsteg, steghide, outguess, exiftool, binwalk, foremost and strings for deeper steganography analysis. The platform supports the following images format: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff...
+
+- Wireshark 
+    - There are tons of helpful YouTube Videos out there
+
+
+
 
 
 # Web Application 
@@ -461,7 +395,17 @@ Where did these notes come from? See the [README](README.md).
 	- Security is about protecting people, we should build technology that people can trust, not constantly blame users. 
 
 
-# Cryptography, Authentication, Identity 
+# Career Pathways or Roadmaps
+
+- [Cyber Career Pathways Tool](https://niccs.cisa.gov/workforce-development/cyber-career-pathways-tool) This tool presents a new and interactive way to explore the updated work roles within the Workforce Framework for Cybersecurity (NICE Framework). It depicts the Cyber Workforce according to five distinct, yet complementary, skill communities. It also highlights core attributes among each of the 52 work roles and offers actionable insights for employers, professionals, and those considering a career in Cyber.
+
+- [Security Certification Roadmap by Paul Jerimy](https://pauljerimy.com/security-certification-roadmap/) This can look a little overwhelming but it's a great resource on finding a domain of cybersecurity that you are interested in an understand where it stands and the cost of getting that cert.
+
+- [TCM Security](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course) This will take you to a Ethical Hacking course by TCM but have heard good things about it and it's less expensive than SANS, especially PJPT is one of their famous certs to get. 
+
+- [CS 50 by Harvard](https://cs50.harvard.edu/cybersecurity/2023/) This is the online course of Intro to Cybersecurity by Harvard. Course presents both high-level and low-level examples of threats, providing students with all they need know technically to understand both. Assignments inspired by real-world events.
+
+
 
 - Encryption vs Encoding vs Hashing vs Obfuscation vs Signing
 	- Be able to explain the differences between these things. 
@@ -536,40 +480,14 @@ Where did these notes come from? See the [README](README.md).
 	- Federated identity
 
 
-# Malware & Reversing
+# Books to Read
 
-- Interesting malware
-	- Conficker.
-	- Morris worm.
-	- Zeus malware.
-	- Stuxnet.
-	- Wannacry.
-	- CookieMiner.
-	- Sunburst.
-
-- Malware features
-	- Various methods of getting remote code execution. 
-	- Domain-flux.
-	- Fast-Flux.
-	- Covert C2 channels.
-	- Evasion techniques (e.g. anti-sandbox).
-	- Process hollowing. 
-	- Mutexes.
-	- Multi-vector and polymorphic attacks.
-	- RAT (remote access trojan) features.
-
-- Decompiling/ reversing 
-	- Obfuscation of code, unique strings (you can use for identifying code).
-	- IdaPro, Ghidra.
-
-- Static / dynamic analysis
-	- Describe the differences.
-	- Virus total. 
-	- Reverse.it. 
-	- Hybrid Analysis.
+- [Book Reviews](https://icdt.osu.edu/cybercanon/bookreviews) I am not aware of how the decision gets made but Ohio State University has this site where there are always interesting and fun books to read 
 
 
 # Exploits
+
+- [ExploitDB] (https://www.exploit-db.com/) Need an exploit? Search the service and it's version. Tons of great scripts to exploit a vulnerability.
 
 - Three ways to attack - Social, Physical, Network 
 	- **Social**
@@ -892,3 +810,9 @@ These security engineering challenges focus on text parsing and manipulation, ba
 	- Look at Yara rules for examples.
 
 Put your work-in-progress scripts on GitHub and link to them on your resume/CV. Resist the urge to make your scripts perfect or complete before doing this. 
+
+
+# Cryptography
+
+- [Cipher Identifier and Analyzer](https://www.boxentriq.com/code-breaking/cipher-identifier)Stuck with a cipher or cryptogram? This tool will help you identify the type of cipher, as well as give you information about possibly useful tools to solve it.
+- [DCode Cipher Identifier](https://www.dcode.fr/cipher-identifier) There's tons of tools available on D Code as well but they also have a nice cipher identifier
