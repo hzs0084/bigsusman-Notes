@@ -328,6 +328,16 @@ Where did these notes come from? See the [README](README.md).
 
 # Web Application 
 
+- How does SSL/TLS Cert work?
+    - 1) User Creates his own Certificate Authority (rootCA and CA private key)
+    - 2) Generate Server Private Key
+    - 3) Use Server Private Key to Create CSR (Certificate Signing Request) with required info
+    - 4) Use CSR and CA certs to generate SSL
+    - 5) Use self signed certificate with the application
+    - 6) Install user rootCA in browser or OS
+
+- [HTTPS, SSL, TLS & CA Explained](https://www.youtube.com/watch?v=EnY6fSng3Ew&t=2014s) This is a god tier explanation of how HTTPS works and why we need certificates
+
 - Same origin policy
 	- Only accept requests from the same origin domain.  
 - CORS 
