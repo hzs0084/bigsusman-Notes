@@ -114,6 +114,10 @@ Where did these notes come from? See the [README](README.md).
 
 - [DNS Dumpster](https://dnsdumpster.com/) DNSDumpster.com is a FREE domain research tool that can discover hosts related to a domain. Finding visible hosts from the attackers perspective is an important part of the security assessment process.
 
+- [Awesome Annual Reports](https://github.com/jacobdjwilson/awesome-annual-security-reports) This list aims to cut through the noise by providing a vendor-neutral resource for the latest security trends, tools, and partnerships. It curates information from trusted sources, making it easier for security leaders to make informed decisions.
+
+
+
 
 
 
