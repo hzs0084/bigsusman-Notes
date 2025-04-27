@@ -345,6 +345,7 @@ Where did these notes come from? See the [README](README.md).
 	- Trusting the host but not the network.
 - Log4j vuln. 
 
+- A guide on [SSRF](https://www.intigriti.com/researchers/blog/hacking-tools/ssrf-a-complete-guide-to-exploiting-advanced-ssrf-vulnerabilities#5-exploiting-second-order-ssrfs)
 
 # OS Implementation and Systems
 
