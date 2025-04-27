@@ -1,17 +1,17 @@
 # Cybersecurity Notes
-A compilation of all I have and done in Cybersecurity .
+A compilation of all I have done in Cybersecurity.
 
-From CTFs, Interview Prep, to helful online resources
+From CTFs, Interview Prep, to helpful online resources
 
 I want this repository to be a hub of resources. I've often run into an issue when working on a CTF problem, or preparing for an interview, or tackling a box, where I have to look up what tool would be the best to use and sometimes there are those annoying Steg challenges that require you to know certain tools to get the flag. 
 
 When I was also preparing for an interview, there was no specific structure for Cybersecurity Interviews, so I want this repo to be a resource for anyone preparing for interviews or a quick read on some topics.
 
-I'm also going to organize the interviews and those experiences by company because each FAANG or MAANG company has their own unique way of interviewing.
+I'm also going to organize the interviews and those experiences by company because each  MAANG company has its own unique way of interviewing.
 
-Security Engineers have a no structure for interviews. While the officialy title could be a Security Engineer, you need to study and prepare for multiple aspects during the interview, when compared to SWE interviews you can grind leetcode, study system design and land the job but for us it's a different story. 
+Security Engineers have no structure for interviews. While the official title could be a Security Engineer, you need to study and prepare for multiple aspects during the interview. When compared to SWE interviews, you can grind LeetCode, study system design, and land the job, but for us, it's a different story. 
 
-I am not saying that SWE interviews are easy but there are clear benchmarks for Software Devs than for security engineers and there are many aspects that a security engineer needs to know and prepare for during an interview.
+I am not saying that SWE interviews are easy but there are clear benchmarks for Software Devs than for security engineers, and there are many aspects that a security engineer needs to know and prepare for during an interview.
 
  
 ## By bigsusman
