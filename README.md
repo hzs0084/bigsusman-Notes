@@ -89,6 +89,8 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 - [Quip Quip](https://quipqiup.com/) Runs frquency analysis on ciphers and quipqiup is a fast and automated cryptogram solver by Edwin Olson.
 
+- [XSS Hunter Express](https://github.com/mandatoryprogrammer/xsshunter-express) A tool to find XSS vulns
+
 
 
 
