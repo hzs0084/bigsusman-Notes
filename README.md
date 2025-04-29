@@ -167,6 +167,12 @@ Where did these notes come from? See the [README](README.md).
 
 - [HTTPS, SSL, TLS & CA Explained](https://www.youtube.com/watch?v=EnY6fSng3Ew&t=2014s) This is a god tier explanation of how HTTPS works and why we need certificates
 
+- [PenTester Lab](https://pentesterlab.com/) Learn by exploiting real-world CVEs and analyzing vulnerabilities at the code level.
+
+- PortSwigger Academy
+
+- OWASP Juice Shop
+
 
 
 
@@ -175,7 +181,11 @@ Where did these notes come from? See the [README](README.md).
 
 - A guide on [SSRF](https://www.intigriti.com/researchers/blog/hacking-tools/ssrf-a-complete-guide-to-exploiting-advanced-ssrf-vulnerabilities#5-exploiting-second-order-ssrfs)
 
-# OS Implementation and Systems
+# Reverse Engineering
+
+[Repo with RE Resources](https://github.com/wtsxDev/reverse-engineering) This is a collection of resources focused towards Reverse Engineering, it includes, books, challenges, dissassemblers, and many more cool stuff
+
+
 
 
 ## Mitigations 
@@ -251,3 +261,12 @@ Where did these notes come from? See the [README](README.md).
 
 - [Cipher Identifier and Analyzer](https://www.boxentriq.com/code-breaking/cipher-identifier)Stuck with a cipher or cryptogram? This tool will help you identify the type of cipher, as well as give you information about possibly useful tools to solve it.
 - [DCode Cipher Identifier](https://www.dcode.fr/cipher-identifier) There's tons of tools available on D Code as well but they also have a nice cipher identifier
+
+# Bug Bounty
+
+[Bug Bounty Repo](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters) This repo focuses on resources that anyone wants to dive in on how to get started with Big Bounty, very beginner friendly
+
+There's a HackTheBox Pathway as well
+
+HackerOne Bug Bounty
+
