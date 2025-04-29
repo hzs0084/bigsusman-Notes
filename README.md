@@ -43,7 +43,7 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 
 # CTF Tools
 
-Password Cracking Tools
+- Password Cracking Tools
     - [Hashes.com](https://hashes.com/en/decrypt/hash)
     - [Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)
     - [Hash Analyzer by Hashes.com](https://hashes.com/en/tools/hash_identifier)
