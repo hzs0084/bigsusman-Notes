@@ -172,6 +172,8 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 - A guide on [SSRF](https://www.intigriti.com/researchers/blog/hacking-tools/ssrf-a-complete-guide-to-exploiting-advanced-ssrf-vulnerabilities#5-exploiting-second-order-ssrfs)
 
+- SQLMap for SQL Injections
+
 
 # Infrastructure (Prod / Cloud) Virtualisation 
  
