@@ -51,15 +51,15 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
     - [Crackstation](https://crackstation.net/)
     - [Hash Identifier](https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master) Your own cli tool to help you identify hashes
 
-StegOnline tools
-Hash Analyzer
-D Code
-Black Hills Info Sec
-Darknet Diaries as a Podcast
-Shared Secrets another podcast
-[Password Wordlists](https://weakpass.com/) Weakpass.com is a collection of password lists for various purposes from penetration testing to improving password security.
-[SecLists](https://github.com/danielmiessler/SecLists) More Password Wordlists
-[Base64 Encoding/Decoding](https://appdevtools.com/base64-encoder-decoder)
+- StegOnline tools
+- Hash Analyzer
+- D Code
+- Black Hills Info Sec
+- Darknet Diaries as a Podcast
+- Shared Secrets another podcast
+- [Password Wordlists](https://weakpass.com/) Weakpass.com is a collection of password lists for various purposes from penetration testing to improving password security.
+- [SecLists](https://github.com/danielmiessler/SecLists) More Password Wordlists
+- [Base64 Encoding/Decoding](https://appdevtools.com/base64-encoder-decoder)
 
 - [WPScan](https://wpscan.com/) Need to scan a WordPress Site for Vulns, fear not for WPScan targets common vulns present in WP sites.
 
