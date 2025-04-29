@@ -17,7 +17,7 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 ## By bigsusman
 
 ### Contents
-- [README](README.md)
+
 - [Known Helpful Resources from Reddit and more](#helpful-resources)
 - [OSINT](#osint)
 - [Forensics](#forensics)
@@ -36,9 +36,9 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 - [Coding & Algorithms](#coding--algorithms)
 - [Security Themed Coding Challenges](#security-themed-coding-challenges)
 - [Amazing Research-Papers](#research-papers)
-- [Bug Bounty]
+- [Bug Bounty](#bug-bounty)
 - [Cryptography](#cryptography)
-- [List of Cheatsheets]
+- [List of Cheatsheets](#cheatsheets)
 - [Online tools for CTF](#ctf-tools)
 
 # CTF Tools
@@ -93,11 +93,6 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 
 
-
-# Background
-
-Where did these notes come from? See the [README](README.md).
-
 # Helpful Resources 
 
 - [Interview Study Notes by Nolang](https://github.com/gracenolan/Notes) on GitHub. I have borrowed the idea of notes, while this repo by nolang talks about what helped them prepare for interview. I want to take this a step further. I WOULD HIGHLY SUGGEST going through this as there might be some overlap for concepts but that repo goes into more detail than mine will.
@@ -113,6 +108,8 @@ Where did these notes come from? See the [README](README.md).
 - [DNS Dumpster](https://dnsdumpster.com/) DNSDumpster.com is a FREE domain research tool that can discover hosts related to a domain. Finding visible hosts from the attackers perspective is an important part of the security assessment process.
 
 - [Awesome Annual Reports](https://github.com/jacobdjwilson/awesome-annual-security-reports) This list aims to cut through the noise by providing a vendor-neutral resource for the latest security trends, tools, and partnerships. It curates information from trusted sources, making it easier for security leaders to make informed decisions.
+
+- [Hacking Google](https://www.youtube.com/watch?v=5nEyjYn9_LI&list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H) This is a YouTube series about Google and gives a good insight on how the security works at Google and the big major teams at Google
 
 
 
@@ -173,23 +170,19 @@ Where did these notes come from? See the [README](README.md).
 
 - OWASP Juice Shop
 
-
+- A guide on [SSRF](https://www.intigriti.com/researchers/blog/hacking-tools/ssrf-a-complete-guide-to-exploiting-advanced-ssrf-vulnerabilities#5-exploiting-second-order-ssrfs)
 
 
 # Infrastructure (Prod / Cloud) Virtualisation 
  
+[Awesome Cloud Security Repo](https://github.com/4ndersonLin/awesome-cloud-security) A curated list of awesome cloud security related resources.
 
-- A guide on [SSRF](https://www.intigriti.com/researchers/blog/hacking-tools/ssrf-a-complete-guide-to-exploiting-advanced-ssrf-vulnerabilities#5-exploiting-second-order-ssrfs)
+[Cloud Security Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs)A list of free cloud native security learning labs. Includes CTF, self-hosted workshops, guided vulnerability labs, and research labs.
+
 
 # Reverse Engineering
 
 [Repo with RE Resources](https://github.com/wtsxDev/reverse-engineering) This is a collection of resources focused towards Reverse Engineering, it includes, books, challenges, dissassemblers, and many more cool stuff
-
-
-
-
-## Mitigations 
-
 
 
 # Career Pathways or Roadmaps
@@ -203,7 +196,6 @@ Where did these notes come from? See the [README](README.md).
 - [CS 50 by Harvard](https://cs50.harvard.edu/cybersecurity/2023/) This is the online course of Intro to Cybersecurity by Harvard. Course presents both high-level and low-level examples of threats, providing students with all they need know technically to understand both. Assignments inspired by real-world events.
 
 
-
 # Books to Read
 
 - [Book Reviews](https://icdt.osu.edu/cybercanon/bookreviews) I am not aware of how the decision gets made but Ohio State University has this site where there are always interesting and fun books to read 
@@ -214,20 +206,32 @@ Where did these notes come from? See the [README](README.md).
 - [ExploitDB] (https://www.exploit-db.com/) Need an exploit? Search the service and it's version. Tons of great scripts to exploit a vulnerability.
 
 
-
 # Threat Detection
 
 [Awesome Threat Detection](https://github.com/0x4D31/awesome-threat-detection) I found this repository that goes into the deep end of threat detection. 
-
 
 
 # Threat Modeling
 
 - [Excellent talk](https://www.youtube.com/watch?v=vbwb6zqjZ7o) on "Defense Against the Dark Arts" by Lilly Ryan (contains *many* Harry Potter spoilers)
 
+# Personal Interview Experiences
 
-# Detection
+These are some of the questions that I remember I was asked during my interviews
 
+## Microsoft
+
+## Google
+
+## Sailpoint
+
+## Gemini Trust Safety 
+
+## Security Innovation
+
+## Los Alamos National Laboratory
+
+## Global Payemsnts TSYS
 
 
 # Learning Platforms
@@ -270,3 +274,10 @@ There's a HackTheBox Pathway as well
 
 HackerOne Bug Bounty
 
+# Cheatsheets
+
+Blue Team Cheatsheet
+
+Nmap Cheatsheet
+
+Red Team Cheatsheet
