@@ -113,6 +113,7 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 - [TCP Handshake](https://www.youtube.com/watch?v=F27PLin3TV0) This video for me personally does a really good explantation on what happens during the three-way handshake and it also goes into the Wireshark pcap at the end to see it in action. 
 
+- [Networking Tutorial Playlist](https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW) A great playlist to get information and cover a lot of information on what you need to know about networks as you get started
 
 # OSINT
 
