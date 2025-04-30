@@ -111,6 +111,7 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 - [Hacking Google](https://www.youtube.com/watch?v=5nEyjYn9_LI&list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H) This is a YouTube series about Google and gives a good insight on how the security works at Google and the big major teams at Google
 
+- [TCP Handshake](https://www.youtube.com/watch?v=F27PLin3TV0) This video for me personally does a really good explantation on what happens during the three-way handshake and it also goes into the Wireshark pcap at the end to see it in action. 
 
 
 # OSINT
