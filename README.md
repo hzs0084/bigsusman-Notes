@@ -30,7 +30,7 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 - [Exploits](#exploits)
 - [Threat Detection](#threat-detection)
 - [Threat Modeling](#threat-modeling)
-- [My Personal Interview Experiences](#detection)
+- [Interview Experiences](#interview-experiences)
 - [Platforms to Upskill](#learning-platforms)
 - [Find CTFs](#incident-management)
 - [Coding & Algorithms](#coding--algorithms)
@@ -143,6 +143,8 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 [OSINT4ALL](https://start.me/p/L1rEYQ/osint4all) aims to provide practical & easy OSINT toolkit for researchers of all level to use.
 
+[Wigle.net](https://wigle.net/index) Information about all SSIDs that are found by war drivers. 
+
 
 # Forensics 
 
@@ -219,23 +221,21 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 - [Excellent talk](https://www.youtube.com/watch?v=vbwb6zqjZ7o) on "Defense Against the Dark Arts" by Lilly Ryan (contains *many* Harry Potter spoilers)
 
-# Personal Interview Experiences
+# Interview Experiences
 
-These are some of the questions that I remember I was asked during my interviews
+These are some of resources that I found for big tech companies to help prepare for interviews and their expeirences, it can obviously vary from role to role
 
-## Microsoft
+### Microsoft
 
-## Google
+### Google
 
-## Sailpoint
+### Meta
 
-## Gemini Trust Safety 
+### Apple
 
-## Security Innovation
+### Amazon
 
-## Los Alamos National Laboratory
-
-## Global Payemsnts TSYS
+### Netflix
 
 
 # Learning Platforms
