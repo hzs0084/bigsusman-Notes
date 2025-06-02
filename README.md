@@ -113,6 +113,9 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 
 [RE CTF](https://github.com/InfectedCapstone/Reverse_Engineering_CTFs) A list of beginner friendly reverse engineering CTF challenges to start off with reverse engineering tools and techniques
 
+[More RE Resources](https://bbinfosec.medium.com/reverse-engineering-resources-beginners-to-intermediate-guide-links-f64c207505ed)
+
+
 ## Binary Exploitation
 
 Add some Binary Exploitation resources here
