@@ -277,3 +277,5 @@ The project collects legitimate functions of Unix binaries that can be abused to
 - [CTF Time](https://ctftime.org/) You can always find an online CTF to participate and upskill
 
 - [DFIR Report](https://thedfirreport.com/) Real Intrusions by Real Attackers, The Truth Behind the Intrusion
+
+- [DNSSec] (https://howdnssec.works/) How DNSSEC works
