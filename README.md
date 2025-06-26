@@ -170,10 +170,10 @@ These are some of resources that I found for big tech companies to help prepare 
 
 ### Google
 
-    ##Google Interview Resources
+## Google Interview Resources
 
-        - Apply your Coding Knowledge Series
-            - [Part 1](https://www.youtube.com/watch?v=9EM6wRNVjBs)
+Apply your Coding Knowledge Series
+- [Part 1](https://www.youtube.com/watch?v=9EM6wRNVjBs)
 
 ### Meta
 
