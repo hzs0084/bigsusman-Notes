@@ -296,3 +296,7 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 - [GitHub] (https://examregistration.github.com/) GitHub Certifications
 
+- [BSCP] (https://portswigger.net/web-security/certification) PortSwigger Burp Suite Certified Professional
+
+
+
