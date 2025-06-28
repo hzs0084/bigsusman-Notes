@@ -175,6 +175,11 @@ These are some of resources that I found for big tech companies to help prepare 
 Apply your Coding Knowledge Series
 - [Part 1](https://www.youtube.com/watch?v=9EM6wRNVjBs)
 
+Applying CS Skills Course by Google
+- [YouTube Series](https://www.youtube.com/watch?v=_C33CdeHgrc&list=PLObwPhL-cU6hUPScqhve5VX-3L5jm7xCQ)
+
+
+
 ### Meta
 
 ### Apple
