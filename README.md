@@ -291,3 +291,8 @@ The project collects legitimate functions of Unix binaries that can be abused to
 - [DNSSec] (https://howdnssec.works/) How DNSSEC works
 
 - [Cyber Defenders](https://cyberdefenders.org/) Blue Team Traning Platform for SOC and DFIR
+
+# Certification Hell
+
+- [GitHub] (https://examregistration.github.com/) GitHub Certifications
+
