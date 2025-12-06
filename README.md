@@ -188,6 +188,18 @@ Applying CS Skills Course by Google
 
 ### Netflix
 
+### Bureau Veritas (previously known as Security Innovation)
+
+### Gemini Crypto
+
+### Global Payments
+
+### Cox Enterprises
+
+### Los Alamos National Laboratory
+
+
+
 
 # Learning Platforms
 
