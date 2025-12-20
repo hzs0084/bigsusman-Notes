@@ -70,7 +70,7 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 # Forensics 
 
 - [StegOnline](https://georgeom.net/StegOnline/upload) Runs a couple of CTF checklist from different images
-- [AperiSolve] (https://www.aperisolve.com/) Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses zsteg, steghide, outguess, exiftool, binwalk, foremost and strings for deeper steganography analysis. The platform supports the following images format: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff...
+- [AperiSolve](https://www.aperisolve.com/) Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses zsteg, steghide, outguess, exiftool, binwalk, foremost and strings for deeper steganography analysis. The platform supports the following images format: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff...
 
 - Wireshark 
     - 
