@@ -36,6 +36,7 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 - [List of Cheatsheets](#cheatsheets)
 - [Online tools for CTF](#ctf-tools)
 - [Resources from Reddit and more](#helpful-resources)
+- [CTI](#threat-intelligence)
 
 # OSINT
 
@@ -162,13 +163,6 @@ HackerOne Bug Bounty
 
 - [Excellent talk](https://www.youtube.com/watch?v=vbwb6zqjZ7o) on "Defense Against the Dark Arts" by Lilly Ryan (contains *many* Harry Potter spoilers)
 
-# Interview Experiences
-
-These are some of resources that I found for big tech companies to help prepare for interviews and their expeirences, it can obviously vary from role to role
-
-### Microsoft
-
-### Google
 
 ## Google Interview Resources
 
@@ -177,29 +171,6 @@ Apply your Coding Knowledge Series
 
 Applying CS Skills Course by Google
 - [YouTube Series](https://www.youtube.com/watch?v=_C33CdeHgrc&list=PLObwPhL-cU6hUPScqhve5VX-3L5jm7xCQ)
-
-
-
-### Meta
-
-### Apple
-
-### Amazon
-
-### Netflix
-
-### Bureau Veritas (previously known as Security Innovation)
-
-### Gemini Crypto
-
-### Global Payments
-
-### Cox Enterprises
-
-### Los Alamos National Laboratory
-
-
-
 
 # Learning Platforms
 
