@@ -38,6 +38,14 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 - [Resources from Reddit and more](#helpful-resources)
 - [CTI](#threat-intelligence)
 
+# My Personal Awesome list of GitHub repos
+
+[A curated list of GitHub Repositories full of FREE Resources.](https://github.com/pawelborkar/awesome-repos)
+
+
+
+
+
 # OSINT
 
 [WhatsMyName Web](https://whatsmyname.app/) Incredible way to find someone if you know their username or have their username from a platform.
