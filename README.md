@@ -43,9 +43,6 @@ I am not saying that SWE interviews are easy but there are clear benchmarks for 
 [A curated list of GitHub Repositories full of FREE Resources.](https://github.com/pawelborkar/awesome-repos)
 
 
-
-
-
 # OSINT
 
 [WhatsMyName Web](https://whatsmyname.app/) Incredible way to find someone if you know their username or have their username from a platform.
@@ -285,9 +282,10 @@ The project collects legitimate functions of Unix binaries that can be abused to
 
 # Certification Hell
 
-- [GitHub] (https://examregistration.github.com/) GitHub Certifications
+- [GitHub](https://examregistration.github.com/) -  GitHub Certifications
 
-- [BSCP] (https://portswigger.net/web-security/certification) PortSwigger Burp Suite Certified Professional
+- [BSCP](https://portswigger.net/web-security/certification) - PortSwigger Burp Suite Certified Professional
 
+- [OSCP](https://portal.offsec.com/courses/pen-200-44065/overview)
 
 
